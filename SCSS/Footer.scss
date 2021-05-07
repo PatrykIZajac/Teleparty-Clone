@@ -1,0 +1,212 @@
+$mainColor: #EF3E3A;
+.Footer{
+    width: 100%;
+    background-color: #1E1E1E;
+    font-family: 'Poppins', 'sans-serif';
+    @media screen and(min-width: 1000px){
+        height: 40%;
+        display: flex;
+        justify-content: space-between;
+        .Footer__left{
+            padding-left: 2%;
+            width: 50%;
+            margin-top: auto;
+            margin-bottom: auto;
+            border-right: solid 1px #e4e0e0;
+            // border: 2px solid red;
+            height: 55%;
+            font-family: 'Poppins', 'sans-serif';
+            text-align: left;
+            display: flex;
+            .container{
+                // border: 2px solid yellow;
+                margin-top: auto;
+                margin-bottom: auto;
+                h2{
+                    font-size: 1.6em;
+                    color: white;
+                    margin-top: 10px;
+                }
+                p{
+                    font-size: 0.8em;
+                    color:$mainColor;
+                    line-height: 140%;
+                }
+            }
+
+            .Footer__left__button{
+                margin-top: 10px;
+                border-radius: 25px;
+                width: 150;
+                height: 35;
+                background-color: white;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                a{
+                    font-size: 0.8em;
+                    color: black;
+                }
+            }
+            .Footer__left__button:hover{
+                background-color: red;
+                a {
+                    color: white;
+                }
+            }
+        }
+        .Footer__right{
+            width: 50%;
+            margin-top: auto;
+            margin-bottom: auto;
+            // border: 2px solid red;
+            font-family: 'Poppins', 'sans-serif';
+            text-align: left;
+            display: grid;
+            justify-content: center;
+            h2{
+                font-size: 1.6em;
+                color: white;
+                margin-top: 10px;
+            }
+            p{
+                color: $mainColor;
+                line-height: 140%;
+            }
+            .Footer__left__button{
+                margin-top: 10px;
+                border-radius: 25px;
+                width: 150;
+                height: 35;
+                background-color: $mainColor;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                a{
+                    font-size: 0.8em;
+                    color: white;
+                }
+            }
+            .Footer__left__button:hover{
+                background-color: red;
+                a {
+                    color: white;
+                }
+            }
+        }
+    }
+
+    @media only screen and (min-width : 631px) and (max-width : 1000px){
+        height: 20%;
+        display: flex;
+        display: flex;
+        justify-content: space-between;
+        .Footer__left{
+            padding-left: 2%;
+            width: 100%;
+            margin-top: auto;
+            margin-bottom: auto;
+            // border: 2px solid red;
+            height: 55%;
+            font-family: 'Poppins', 'sans-serif';
+            text-align: left;
+            display: flex;
+            .container{
+                // border: 2px solid yellow;
+                margin-top: auto;
+                margin-bottom: auto;
+                h2{
+                    font-size: 1.6em;
+                    color: white;
+                    margin-top: 10px;
+                }
+                p{
+                    font-size: 0.8em;
+                    color:$mainColor;
+                    line-height: 140%;
+                }
+            }
+
+            .Footer__left__button{
+                margin-top: 10px;
+                border-radius: 25px;
+                width: 150;
+                height: 35;
+                background-color: white;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                a{
+                    font-size: 0.8em;
+                    color: black;
+                }
+            }
+            .Footer__left__button:hover{
+                background-color: red;
+                a {
+                    color: white;
+                }
+            }
+        }
+        .Footer__right{
+            display: none;
+        }
+    }
+
+    @media only screen and (max-width : 630px){
+        height: 30%;
+        display: flex;
+        display: flex;
+        justify-content: space-between;
+        .Footer__left{
+            padding-left: 2%;
+            width: 100%;
+            margin-top: auto;
+            margin-bottom: auto;
+            // border: 2px solid red;
+            height: 55%;
+            font-family: 'Poppins', 'sans-serif';
+            text-align: left;
+            display: flex;
+            .container{
+                // border: 2px solid yellow;
+                margin-top: auto;
+                margin-bottom: auto;
+                h2{
+                    font-size: 1.6em;
+                    color: white;
+                    margin-top: 10px;
+                }
+                p{
+                    font-size: 0.8em;
+                    color:$mainColor;
+                    line-height: 140%;
+                }
+            }
+
+            .Footer__left__button{
+                margin-top: 10px;
+                border-radius: 25px;
+                width: 150;
+                height: 35;
+                background-color: white;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                a{
+                    font-size: 0.8em;
+                    color: black;
+                }
+            }
+            .Footer__left__button:hover{
+                background-color: red;
+                a {
+                    color: white;
+                }
+            }
+        }
+        .Footer__right{
+            display: none;
+        }
+    }
+}

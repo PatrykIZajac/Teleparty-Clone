@@ -1,0 +1,186 @@
+html,body,div,span,applet,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abbr,acronym,
+address,big,cite,code,del,dfn,em,img,ins,kbd,q,s,samp,small,strike,strong,sub,sup,
+tt,var,b,u,i,center,dl,dt,dd,ol,ul,li,fieldset,form,label,legend,table,caption,tbody,
+tfoot,thead,tr,th,td,article,aside,canvas,details,embed,figure,figcaption,footer,header,
+hgroup,menu,nav,output,ruby,section,summary,time,mark,audio,video 
+{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    vertical-align: baseline;
+    text-decoration: none;
+}
+
+/* HTML5 display-role reset for older browsers */
+article,aside,details,figcaption,figure,footer,header,hgroup,menu,nav,section 
+{
+    display: block;
+}
+body {
+    line-height: 1;
+}
+ol,
+ul {
+    list-style: none;
+}
+blockquote,
+q {
+    quotes: none;
+}
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+    content: "";
+    content: none;
+}
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;500&display=swap');
+
+$mainColor: #EF3E3A;
+
+body{
+    min-width:200px;
+}
+
+.Navbar{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    height: 8%;
+    font-family: 'Poppins', sans-serif;
+    background-color: black;
+    position: fixed;
+    top: 0;
+
+    @media only screen and (max-width: 630px) 
+    {
+        height: 8%;
+        .Navbar__left {
+            margin-left: 5%;
+            ul{
+                display: flex;
+            }
+            .Navbar__logo{
+                font-size: 1em;
+                color: $mainColor;
+            }
+            .Navbar__menu{
+                display: none;
+            }
+        }
+        .Navbar__right{
+            margin-right: 5%;
+            .Navbar__installBtn{
+                display: none;
+            }
+            .Navbar__installBtn--mobile{
+                margin-left: 5%;
+                cursor: pointer;
+                border-radius: 25px;
+                width: 100%;
+                height: 30px;
+                background-color: rgba(255, 255, 255, 0.25);
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                a{
+                    margin: 10px;
+                    font-size: 0.8em;
+                    color: white;
+                }
+            }
+        }
+    }
+
+    @media only screen and (min-width : 631px) and (max-width : 1000px){
+        height: 6%;
+        .Navbar__left {
+            margin-left: 5%;
+            ul{
+                display: flex;
+            }
+            .Navbar__logo{
+                font-size: 1.6em;
+                color: $mainColor;
+            }
+            .Navbar__menu{
+                display: none;
+            }
+        }
+        .Navbar__right{
+            margin-right: 5%;
+            .Navbar__installBtn{
+                display: none;
+            }
+            .Navbar__installBtn--mobile{
+                margin-left: 5%;
+                cursor: pointer;
+                border-radius: 25px;
+                width: 100%;
+                height: 30px;
+                background-color: rgba(255, 255, 255, 0.25);
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                a{
+                    margin: 10px;
+                    font-size: 0.9em;
+                    color: white;
+                }
+            }
+        }
+
+    }
+    @media screen and(min-width: 1000px){
+        .Navbar__left {
+            margin-left: 1%;
+        ul{
+            display: flex;
+        }
+        .Navbar__logo{
+            color: $mainColor;
+        }
+        .Navbar__menu{
+            color: white;
+            font-size: 1em;
+        }
+        li a{
+            color: white;
+            margin-left: 20px;
+            cursor: pointer;
+        }
+        li a:hover{
+            color: $mainColor;
+        }
+        }
+        .Navbar__right{
+            margin-right: 3%;
+            .Navbar__installBtn{
+                border-radius: 25px;
+                width: 156;
+                height: 35;
+                background-color: $mainColor;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                a{
+                    font-size: 0.8em;
+                    color: white;
+                }
+            }
+            .Navbar__installBtn:hover{
+                background-color: red;
+            }
+            .Navbar__installBtn--mobile{
+                display: none;
+            }
+        }
+    }
+}
