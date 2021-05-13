@@ -59,10 +59,11 @@ body{
 
     @media screen and(min-width: 1000px){
         &__info--panel{
+            // border: 2px solid orange;
             padding-bottom: 200px;
             margin-top: 80px;
             display: flex;
-            width: 60%;
+            width: 70%;
             margin-left: auto;
             margin-right: auto;
             .Title{
@@ -70,15 +71,17 @@ body{
                 font-size: 1.4em;
                 color: black;
                 width: 30%;
+                // border: 2px solid yellow;
                 h1{
                     text-align: left;
                     color: $mainColor;
                 }
             }
             .left{
-                width: 65%;
+                width: 60%;
                 p{
                     line-height: 150%;
+                    // border: 2px solid green;
                 }
             }
         }

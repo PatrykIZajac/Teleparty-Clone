@@ -64,7 +64,7 @@ body {
     padding-bottom: 200px;
     margin-top: 80px;
     display: flex;
-    width: 60%;
+    width: 70%;
     margin-left: auto;
     margin-right: auto;
   }
@@ -79,7 +79,7 @@ body {
     color: #EF3E3A;
   }
   .Section3__info--panel .left {
-    width: 65%;
+    width: 60%;
   }
   .Section3__info--panel .left p {
     line-height: 150%;
