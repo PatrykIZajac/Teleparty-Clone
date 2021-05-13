@@ -1,10 +1,11 @@
 $mainColor: #EF3E3A;
 .Footer{
+    height: 300px;
     width: 100%;
     background-color: #1E1E1E;
     font-family: 'Poppins', 'sans-serif';
+
     @media screen and(min-width: 1000px){
-        height: 40%;
         display: flex;
         justify-content: space-between;
         .Footer__left{
@@ -37,8 +38,8 @@ $mainColor: #EF3E3A;
             .Footer__left__button{
                 margin-top: 10px;
                 border-radius: 25px;
-                width: 150;
-                height: 35;
+                width: 150px;
+                height: 35px;
                 background-color: white;
                 display: flex;
                 justify-content: center;
@@ -76,8 +77,8 @@ $mainColor: #EF3E3A;
             .Footer__left__button{
                 margin-top: 10px;
                 border-radius: 25px;
-                width: 150;
-                height: 35;
+                width: 150px;
+                height: 35px;
                 background-color: $mainColor;
                 display: flex;
                 justify-content: center;
@@ -97,8 +98,10 @@ $mainColor: #EF3E3A;
     }
 
     @media only screen and (min-width : 631px) and (max-width : 1000px){
-        height: 20%;
+        height: auto;
         display: flex;
+        padding-bottom: 5%;
+        padding-top: 5%;
         display: flex;
         justify-content: space-between;
         .Footer__left{
@@ -130,8 +133,8 @@ $mainColor: #EF3E3A;
             .Footer__left__button{
                 margin-top: 10px;
                 border-radius: 25px;
-                width: 150;
-                height: 35;
+                width: 150px;
+                height: 35px;
                 background-color: white;
                 display: flex;
                 justify-content: center;
@@ -154,9 +157,11 @@ $mainColor: #EF3E3A;
     }
 
     @media only screen and (max-width : 630px){
-        height: 30%;
+        height: auto;
         display: flex;
         display: flex;
+        padding-top: 5%;
+        padding-bottom: 5%;
         justify-content: space-between;
         .Footer__left{
             padding-left: 2%;
@@ -187,8 +192,8 @@ $mainColor: #EF3E3A;
             .Footer__left__button{
                 margin-top: 10px;
                 border-radius: 25px;
-                width: 150;
-                height: 35;
+                width: 150px;
+                height: 35px;
                 background-color: white;
                 display: flex;
                 justify-content: center;

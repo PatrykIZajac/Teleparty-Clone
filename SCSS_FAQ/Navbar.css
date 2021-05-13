@@ -106,8 +106,8 @@ body {
   }
   .Navbar .Navbar__right .Navbar__installBtn {
     border-radius: 25px;
-    width: 156;
-    height: 35;
+    width: 156px;
+    height: 35px;
     background-color: #EF3E3A;
     display: flex;
     justify-content: center;
